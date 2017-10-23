@@ -1,3 +1,57 @@
 /*
+ Color barra top --> #2C3E50
+ Color primer div --> #18BC9C
+ color algo --> #212529   
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Lato', sans-serif;
+
+
  * Estilos de tu proyecto
  */
+
+body{
+   font-family: 'Montserrat', sans-serif;	
+}
+
+
+ nav{
+ 	outline: 1px solid red;
+ 	
+
+ }
+
+ ul {
+ 	outline: 1px solid blue;
+    margin:0px;
+ 	padding:0px;
+   	line-height: 100px;
+    background-color: #2C3E50;
+	list-style: none;
+    
+    
+ }
+
+
+ li {
+ 	outline: 1px solid green;
+    
+ 	display: inline-block;
+    font-size: 20px;
+ 	font-weight: bold;
+    justify-content: right;
+ }
+
+
+ ul li:first-child{
+ 	width: 600px;
+ 	font-size: 30px;
+ 	text-align: center;
+ }
+
+ a {
+ 	color: white;
+    display: block;
+    text-decoration: none;
+ } 
