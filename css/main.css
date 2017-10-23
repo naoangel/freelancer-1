@@ -8,50 +8,139 @@
     font-family: 'Lato', sans-serif;
 
 
- * Estilos de tu proyecto
- */
+ 
 
+/*aplicando fuente a todo el documento*/
+* {
+	box-sizing: border-box;
+}
 body{
-   font-family: 'Montserrat', sans-serif;	
+	margin: 0 auto;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;	
 }
 
 
  nav{
- 	outline: 1px solid red;
+ 	/*outline: 1px solid red;*/
+ 	width: 100%;
  	
+    /*no se me ve completo el nav, o sea sin 
+    bordes... intenté con margin y padding 0px 
+    pero nada*/ 
+  }
 
- }
 
  ul {
- 	outline: 1px solid blue;
+ 	/*outline: 1px solid blue;*/
     margin:0px;
  	padding:0px;
    	line-height: 100px;
-    background-color: #2C3E50;
+   	background-color: #2C3E50;
 	list-style: none;
-    
-    
- }
+
+  }
 
 
  li {
- 	outline: 1px solid green;
-    
- 	display: inline-block;
-    font-size: 20px;
+ /*	outline: 1px solid green;*/
+    display: inline-block;
+    width: 100px;
+    font-size: 20 px;
  	font-weight: bold;
-    justify-content: right;
- }
+ 	text-align: right;
+   }
 
 
  ul li:first-child{
- 	width: 600px;
- 	font-size: 30px;
- 	text-align: center;
+ 	width: 1000px;
+ 	font-size: 40px;
+ 	text-align: left;
+ 	padding-left: 100px;
  }
 
  a {
  	color: white;
     display: block;
     text-decoration: none;
- } 
+    
+ }
+ /*Inicia sección Uno*/
+
+#uno {
+	position: absolute;
+	height: 700px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #18BC9C ; 
+    text-align: center;
+    position: relative;   
+    
+}
+
+#uno img{
+	margin-top: 50px;
+}
+
+h1 {
+	color: #FFF;
+    font-size: 60px;
+    margin-top: 0px;
+    padding: 50px;
+    }
+  
+
+.censtar{
+		}
+
+.line{
+    height: 3px;
+    width: 50px;
+    background-color: #FFF;
+    margin-left: 800px;
+
+
+	/*border-top: 3px solid #FFF;
+	width: 30%;
+	margin-left: 500px;
+*/
+}
+
+.fa-star{
+	color: #FFF;
+	font-size: 30px;
+    position: absolute;
+}
+
+h4 {
+     color: #FFF;
+       }
+
+/*Empieza container dos*/
+
+#dos{
+	text-align: center;
+    position: relative;
+}
+.box {
+    height: 300px;
+    width: 300px;
+   }
+   .linetop{
+   	 float: left; 
+	position: absolute;
+}
+   }
+#one{ 
+    background-image: url(../assets/images/portfolio/cabin.png);
+    background-size: cover;
+    }
+
+#two{ 
+    background-image: assets/images/portfolio/cake;
+    background-size: cover;
+    }
+#three{ 
+    background-image: assets/images/portfolio/circus;
+    background-size: cover;
+    }
