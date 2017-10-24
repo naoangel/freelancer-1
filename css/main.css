@@ -17,9 +17,8 @@
 body{
 	margin: 0 auto;
    font-family: 'Montserrat', sans-serif;
-   font-weight: bold;	
+   font-weight: bolder;	
 }
-
 
  nav{
  	/*outline: 1px solid red;*/
@@ -38,7 +37,6 @@ body{
    	line-height: 100px;
    	background-color: #2C3E50;
 	list-style: none;
-
   }
 
 
@@ -53,23 +51,29 @@ body{
 
 
  ul li:first-child{
- 	width: 1000px;
- 	font-size: 40px;
+ 	width: 850px;
+ 	font-size: 35px;
  	text-align: left;
  	padding-left: 100px;
  }
 
+
  a {
- 	color: white;
+ 	color: #fff;
     display: block;
     text-decoration: none;
-    
- }
+     }
+
+a:hover{
+	color:#18BC9C;
+}
+
  /*Inicia sección Uno*/
 
-#uno {
+
+.profile {
 	position: absolute;
-	height: 700px;
+	height: 800px;
 	margin: 0px;
 	padding: 0px;
 	background-color: #18BC9C ; 
@@ -78,32 +82,34 @@ body{
     
 }
 
-#uno img{
-	margin-top: 50px;
+.profile img{
+	padding: 50px;
 }
 
 h1 {
 	color: #FFF;
-    font-size: 60px;
-    margin-top: 0px;
-    padding: 50px;
+    font-size: 80px;
+    margin-top: 0;
+    padding: 25px;
     }
   
 
 .censtar{
+		text-align: center;
+    display: inline-block;
+    position: absolute;
 		}
 
+
 .line{
-    height: 3px;
-    width: 50px;
-    background-color: #FFF;
-    margin-left: 800px;
+	 border-top: 3px solid #FFF;
+  width: 10%;
+	}   
+.line2{
+	border-top: 3px solid #FFF;
+	width: 10%;
+	
 
-
-	/*border-top: 3px solid #FFF;
-	width: 30%;
-	margin-left: 500px;
-*/
 }
 
 .fa-star{
@@ -112,35 +118,142 @@ h1 {
     position: absolute;
 }
 
-h4 {
-     color: #FFF;
+
+.profile h3 {
+     color:#FFF;
+     font-weight: normal;
+     font-size: 25px;     
        }
 
-/*Empieza container dos*/
 
-#dos{
+/*Empieza container dos - Sección portfolio*/
+
+.portfolio{
 	text-align: center;
     position: relative;
+    background-color: #fff;
+    position: relative;
 }
+
+.portfolio h2{
+    font-size: 50px;
+    color:#212529;
+    font-weight: bolder;
+}
+
+
+.star{
+  display: inline-block;
+  position: absolute;
+}
+
+
+.linea{
+/*  background-color: #212529;
+  height: 3px;
+  width: 50px;*/
+  border-top: 3px solid  #212529;
+  width: 10%;
+  }
+
+
+
+.lines{
+	width: 1000;
+	margin margin-top: 150px;
+  display: inline-block;
+	    }
+
 .box {
     height: 300px;
-    width: 300px;
-   }
-   .linetop{
-   	 float: left; 
-	position: absolute;
-}
-   }
+    width: 400px;
+    margin:10px;
+    background-size: cover;
+    float: left;
+    position: relative;	 
+   
+      }
+ .box2{
+ 	height: 300px;
+    width: 400px;
+    margin:10px;
+    align-content: center;
+    background-size: cover;
+    float: left;
+    position: relative;	 
+   
+ }
+   
 #one{ 
     background-image: url(../assets/images/portfolio/cabin.png);
-    background-size: cover;
+  
     }
 
 #two{ 
-    background-image: assets/images/portfolio/cake;
-    background-size: cover;
+    background-image: url(../assets/images/portfolio/cake.png)
+   
     }
 #three{ 
-    background-image: assets/images/portfolio/circus;
-    background-size: cover;
+    background-image: url(../assets/images/portfolio/circus.png)
+    
     }
+
+#four{ 
+    background-image: url(../assets/images/portfolio/game.png)
+    
+}
+
+#five{ 
+    background-image: url(../assets/images/portfolio/safe.png)
+ 
+    }
+#six{ 
+    background-image: url(../assets/images/portfolio/submarine.png)
+   
+}
+
+
+/*Empieza sección about*/
+
+.about{
+  position: absolute;
+  height: 600px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #18BC9C ; 
+  text-align: center;
+  position: relative;
+}
+.about h2{
+  font-size: 50px;
+  padding-top: 50px;
+  color: #FFF;
+  font-weight: bolder;
+}
+
+
+.twocol{ /*dos columnas del cuadro de texto en dos cajas*/
+  margin-left: 340px;
+  width: 900px;
+  position: absolute; 
+
+}
+
+.textabout{
+  display: inline-block;
+  width: 300px;
+  height: 500px;
+  margin:20px;
+  float:left;
+}
+
+.textabout p{
+  color:#fff;
+  text-align: left;
+  line-height: 30px;
+
+}
+
+/*Empieza sección Contact*/
+
+
