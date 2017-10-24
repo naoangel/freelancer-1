@@ -17,7 +17,7 @@
 body{
 	margin: 0 auto;
    font-family: 'Montserrat', sans-serif;
-   font-weight: bolder;	
+   font-weight: 800;	
 }
 
  nav{
@@ -57,12 +57,16 @@ body{
  	padding-left: 100px;
  }
 
+ ul li:first-child a:hover{
+  color:#FFF ;
+ }
 
  a {
  	color: #fff;
     display: block;
     text-decoration: none;
      }
+     
 
 a:hover{
 	color:#18BC9C;
@@ -71,23 +75,24 @@ a:hover{
  /*Inicia sección Uno*/
 
 
+
 .profile {
 	position: absolute;
 	height: 800px;
 	margin: 0px;
 	padding: 0px;
 	background-color: #18BC9C ; 
-    text-align: center;
-    position: relative;   
+  text-align: center;
+  position: relative;   
     
 }
 
 .profile img{
 	padding: 50px;
-}
+  }
 
-h1 {
-	color: #FFF;
+.profile h1 {
+	  color: #FFF;
     font-size: 80px;
     margin-top: 0;
     padding: 25px;
@@ -95,26 +100,23 @@ h1 {
   
 
 .censtar{
-		text-align: center;
-    display: inline-block;
+	  display: inline-block;
+    float: left;
     position: absolute;
 		}
 
 
-.line{
-	 border-top: 3px solid #FFF;
-  width: 10%;
-	}   
-.line2{
-	border-top: 3px solid #FFF;
-	width: 10%;
-	
-
+.line hr{
+    width: 100px;
+    height:5px;
+    background-color:#FFF;
+    border:none;
 }
-
+	 
+	
 .fa-star{
-	color: #FFF;
-	font-size: 30px;
+	  color: #FFF;
+	  font-size: 40px;
     position: absolute;
 }
 
@@ -124,6 +126,8 @@ h1 {
      font-weight: normal;
      font-size: 25px;     
        }
+
+
 
 
 /*Empieza container dos - Sección portfolio*/
@@ -236,7 +240,7 @@ h1 {
   margin-left: 340px;
   width: 900px;
   position: absolute; 
-
+  
 }
 
 .textabout{
@@ -245,15 +249,39 @@ h1 {
   height: 500px;
   margin:20px;
   float:left;
+  font-family: 'Lato', sans-serif;
 }
 
 .textabout p{
   color:#fff;
   text-align: left;
-  line-height: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
 
 }
 
+.btn-about {
+  background-color: #18BC9C;
+  font-size: 20px;
+  border: 2px solid #FFF;
+  border-radius: 6px;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 0 40%;
+
+}
+
+.btn-about a:hover{
+  background-color: #FFF;
+  color: #18BC9C;
+  cursor: pointer;
+  transition: background-color 0.8s ease-out;
+}
+
+
 /*Empieza sección Contact*/
+
+
 
 
