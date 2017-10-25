@@ -96,27 +96,29 @@ a:hover{
     font-size: 80px;
     margin-top: 0;
     padding: 25px;
+
     }
   
 
 .censtar{
-	  display: inline-block;
-    float: left;
-    position: absolute;
+	  position: absolute;
 		}
-
-
 .line hr{
-    width: 100px;
+    width: 300px;
     height:5px;
+    margin-left: 400px;
+    margin-bottom: 50px;
     background-color:#FFF;
     border:none;
+    position: absolute;
 }
 	 
 	
 .fa-star{
 	  color: #FFF;
-	  font-size: 40px;
+	  font-size: 50px;
+    text-align: center;
+    background-color: #18BC9C;
     position: absolute;
 }
 
@@ -246,7 +248,7 @@ a:hover{
 .textabout{
   display: inline-block;
   width: 300px;
-  height: 500px;
+  height: 300px;
   margin:20px;
   float:left;
   font-family: 'Lato', sans-serif;
@@ -268,7 +270,7 @@ a:hover{
   border-radius: 6px;
   padding: 10px 20px;
   text-align: center;
-  margin-top: 0 40%;
+  margin-top: 317px;
 
 }
 
@@ -282,6 +284,34 @@ a:hover{
 
 /*Empieza sección Contact*/
 
+.contactt{
+  text-align: center;
+} 
+#contact h3{
+  color : #FFF;
+}
+#contact h4{
+  color: #FFF;
+}
 
+fieldset {
+ 
+}
+
+
+
+
+
+/*Empieza sección Footer*/
+
+.footer{
+  background-color: #2C3E50;
+  height: 400px;
+}
+
+.boxfoot{
+  color: #FFF;
+
+}
 
 
