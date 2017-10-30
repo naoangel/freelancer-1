@@ -6,12 +6,9 @@
 
 ***
 
- Este trabajo está 
+ Este trabajo está desarrollado con lenguaje de html5 y css. Se utilizaron fuentes de Google Fonts e íconos de Font Awesone.
+ Se compone de una barra navegadora, y seis secciones, la última es el footer.
 
 
 
 
-* El subrayado que incluye la estrella en las diversas secciones del sitio, en
-  la web original se hace con un ícono y pseudoelementos (`:after`, `:before`),
-  es un reto entretenido, sin embargo, no trates de enfocarte en esa parte desde
-  un inicio ya que no es el objetivo principal del reto :)
