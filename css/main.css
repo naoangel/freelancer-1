@@ -100,17 +100,23 @@ a:hover{
     }
   
 
-.censtar{
+.censtar1{
 	  position: absolute;
 		}
-.line hr{
-    width: 300px;
+.censtar1 div{
+    /*width: 300px;
     height:5px;
     margin-left: 400px;
     margin-bottom: 50px;
     background-color:#FFF;
     border:none;
-    position: absolute;
+    position: absolute;*/
+
+    width: 100px;
+    background-color: white;
+    height: 5px;
+    display: inline-block;
+    
 }
 	 
 	
@@ -294,10 +300,18 @@ a:hover{
   color: #FFF;
 }
 
-fieldset {
- 
+#contact{
+  border-bottom: 1px solid #eee;
+  border: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 2;
+  text-align: left;
+  outline: none;
+    } 
 }
-
 
 
 
@@ -311,6 +325,7 @@ fieldset {
 
 .boxfoot{
   color: #FFF;
+
 
 }
 
